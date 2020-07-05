@@ -8,7 +8,7 @@ interface TokenPayload {
     sub: string;
 }
 
-export default function ensudeAuthenticarted(
+export default function ensureAuthenticated(
     request: Request,
     response: Response,
     next: NextFunction,
